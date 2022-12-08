@@ -1,6 +1,6 @@
 {
   "name": "css-reset-plus",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "build": "sass index.scss index.css --style compressed"
   },
