@@ -1,0 +1,29 @@
+{
+  "name": "css-reset-plus",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "sass index.scss index.css --style compressed"
+  },
+  "devDependencies": {
+    "sass": "^1.56.1"
+  },
+  "main": "./index.cjs",
+  "exports": {
+    ".": {
+      "require": "./index.cjs",
+      "import": "./index.mjs"
+    }
+  },
+  "keywords": [],
+  "author": "NazmusSayad",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NazmusSayad/css-reset-plus.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NazmusSayad/css-reset-plus/issues"
+  },
+  "homepage": "https://github.com/NazmusSayad/css-reset-plus#readme",
+  "description": "css reset"
+}
