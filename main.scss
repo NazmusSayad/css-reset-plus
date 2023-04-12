@@ -46,6 +46,7 @@ textarea,
 select {
   font: inherit;
   color: inherit;
+  color: currentColor;
 }
 
 img,
@@ -63,6 +64,7 @@ ul {
 }
 
 dialog {
+  color: inherit;
   color: currentColor;
 
   &:modal {
@@ -72,5 +74,5 @@ dialog {
 }
 
 [hidden] {
-  display: none;
+  visibility: hidden;
 }
