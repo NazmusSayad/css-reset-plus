@@ -1,6 +1,6 @@
 {
   "name": "css-reset-plus",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "scripts": {
     "build": "sass main.scss main.css --style compressed"
   },
@@ -8,12 +8,6 @@
     "sass": "latest"
   },
   "main": "./main.css",
-  "exports": {
-    ".": {
-      "require": "./main.css",
-      "import": "./main.css"
-    }
-  },
   "author": "NazmusSayad",
   "license": "ISC",
   "repository": {
